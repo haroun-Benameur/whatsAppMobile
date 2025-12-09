@@ -5,6 +5,11 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
+import { createClient } from '@supabase/supabase-js'
+const supabaseUrl = 'https://cikwlvezvmjximsvrowh.supabase.co'
+const supabaseKey = "sb_publishable_B5oYKTC-VIm0MEfU2MqwHA_kIV-BD4e"
+export const supabase = createClient(supabaseUrl, supabaseKey)
+
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -18,8 +23,10 @@ const firebaseConfig = {
   measurementId: "G-9RB963E8KB",
 };
 
+
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getDatabase(app);
 export default app;
+
