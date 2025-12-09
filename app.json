@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "WalaOueslatiWhatsApp",
-    "slug": "WalaOueslatiWhatsApp",
+    "name": "harounBenAmeurWhatsApp",
+    "slug": "harounBenAmeurWhatsApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "walaoueslatiwhatsapp",
+    "scheme": "harounBenAmeurwhatsapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
